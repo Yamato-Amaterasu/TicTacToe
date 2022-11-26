@@ -1,0 +1,84 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78vh;
+    height: 60vh;
+    margin: auto;
+}
+
+
+.square {
+    border: 2px solid rgb(255, 255, 255);
+    width: 25vh;
+    height: 20vh;
+    text-align: center;
+    font-size: 170px;
+    background-color: black;
+
+}
+
+#score {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+#player1Score {
+    margin-right: 450px;
+}
+
+#player-turn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: baseline;
+
+}
+
+#player1Name {
+    margin-right: 50px;
+}
+
+#player2Name {
+    margin-right: 50px;
+}
+
+
+
+.startButton {
+    background-color: grey;
+    border: 2px solid white;
+    padding: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
+}
+
+
+.turnReminder {
+    margin-right: 100px;
+}
+
+.restartButton {
+    background-color: grey;
+    border: 2px solid white;
+    padding: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 20px;
+
+
+}
