@@ -1,5 +1,4 @@
 // ***************** State ***************** \\
-let state = {};
 
 let gameState = {
     board: [
